@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Johnathaniel G. Carbonel | Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Shippori+Mincho:wght@600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SAKURA INTRO -->
+<div id="intro">
+  <div class="logo-wrap">
+    <svg id="logo" viewBox="-50 -50 100 100" width="130" height="130" fill="none" stroke="#fff" stroke-width="1.6">
+      <g id="petals"></g><circle r="3" fill="#fff"/>
+    </svg>
+    <p class="loading">Welcome to my profile.</p>
+  </div>
+</div>
+
+<div id="bg"></div>
+
+<header class="nav">
+  <a href="#home" class="brand">桜</a>
+  <button id="menuBtn" aria-label="Menu">☰</button>
+  <nav id="menu">
+    <a href="#home">Home</a><a href="#about">About Me</a><a href="#education">Education</a>
+    <a href="#achievements">Achievements</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <img id="avatar" class="avatar" alt="Profile picture">
+    <div>
+      <h1 id="heroName"></h1>
+      <h2>Network Design Management Student</h2>
+      <p class="lead">An aspiring IT professional passionate about technology, networking, software development, and cybersecurity.</p>
+      <div class="btns">
+        <a class="btn" href="#about">View My Profile</a>
+        <a class="btn" href="#achievements">View Achievements</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="title">About Me</h2>
+    <div class="grid two">
+      <div class="card" id="infoCard"></div>
+      <div class="card"><h3>Biography</h3><p id="bio"></p></div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2 class="title">Education</h2>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <section id="achievements">
+    <h2 class="title">Achievements</h2>
+    <div class="grid three" id="achGrid"></div>
+
+    <div class="card featured" id="hack"></div>
+
+    <h3 class="sub">Skills / Areas of Study</h3>
+    <div class="badges" id="skills"></div>
+
+    <h3 class="sub">Academic Achievements</h3>
+    <div class="grid two" id="academic"></div>
+  </section>
+
+  <section id="experience">
+    <h2 class="title">Projects &amp; Experience</h2>
+    <div class="grid three" id="projects"></div>
+  </section>
+
+  <section id="contact">
+    <h2 class="title">Let's Connect</h2>
+    <div class="grid two" id="contactGrid"></div>
+  </section>
+</main>
+
+<footer>
+  <p id="copy"></p>
+  <p>Built with passion for technology.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
