@@ -29,7 +29,7 @@ const CONFIG = {
   hackForGov: {
     year: "2026",
     team: "ET'Hack",
-    role: "Versitile",
+    role: "Versatile",
     result: "9th Runner Up",
     image: "certificate.jpg"   // e.g. "certificate.jpg". Empty = placeholder box
   },
